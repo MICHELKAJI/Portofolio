@@ -1,0 +1,28 @@
+
+body{
+    background-image: url("images/AdobeStock_170932733_Preview.jpeg");
+    margin: 0%;
+}
+#logo img{
+    width: 80px;
+    height: 60px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(49, 43, 43);
+    color: white;
+    opacity: 0.5;
+}
+#menuBarr ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 5rem;
+}
+li{
+    list-style-type: none;
+    color: white;
+   
+}
