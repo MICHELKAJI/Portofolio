@@ -24,5 +24,45 @@ header{
 li{
     list-style-type: none;
     color: white;
-   
+    
+}
+a{
+    text-decoration: none;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: center;
+    height: 100vh;
+    border: 1px solid white;
+    gap: 30rem;
+    width: auto;
+
+#myself h1,h2,p{
+    color: white;
+    margin-left: 5rem;
+
+}
+#picture img{
+    border-radius: 100%;
+    height: 15rem;
+    width: 15rem;
+    margin-right: 5rem;
+}
+    
+}
+#aboutMe{
+    height: 100%;
+}
+#myself {
+    width: auto;
+}
+#picture{
+    width: auto;
+}
+ figure figcaption{
+    color: white;
+    text-align: center;
+    line-height: 2rem;
 }
