@@ -24,6 +24,7 @@ header{
 li{
     list-style-type: none;
     color: white;
+    font-weight: bold;
     
 }
 a{
@@ -34,15 +35,16 @@ a{
     flex-direction: row;
     align-items: center;
    justify-content: center;
+   align-content: space-between;
     height: 100vh;
-    border: 1px solid white;
-    gap: 30rem;
-    width: auto;
+    gap: 15em;
+    max-width: 100%;
+}
 
 #myself h1,h2,p{
     color: white;
     margin-left: 5rem;
-
+    
 }
 #picture img{
     border-radius: 100%;
@@ -51,7 +53,7 @@ a{
     margin-right: 5rem;
 }
     
-}
+
 #aboutMe{
     height: 100%;
 }
@@ -65,4 +67,13 @@ a{
     color: white;
     text-align: center;
     line-height: 2rem;
+}
+
+li:hover, li:focus{
+    background-color: white;
+    color:black;
+    padding: 0.3rem;
+    border-radius: 3px;
+    transition:  all 0.5s ease-out;
+
 }
