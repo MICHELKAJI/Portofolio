@@ -45,7 +45,11 @@ a{
     max-width: 100%;
 }
 
-#myself h1,h2,p{
+#myself p,h1{
+    color: white;
+    margin-left: 5rem;
+}
+#myself h2{
     color: white;
     margin-left: 5rem;
 }
@@ -158,7 +162,7 @@ li:hover, li:focus{
     gap: 2rem;
    
 }
-button {
+#button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,29 +183,71 @@ button {
     margin-top: 5rem;
   }
   
-  button:hover {
+  #button:hover {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
   }
   
-  button:active {
+  #button:active {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
   }
   
-  button:focus {
+  #button:focus {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
   }
   #Portofolio{
-    padding-top: 8rem;
+    padding-top: 6rem;
     height: 100vh;
+    
   }
   #images img{
     height: 30rem;
-    width: 45rem;
+    width: 40rem;
     border-radius: 40px 0px 0px 40px;
+    
   }
   #contener{
     display: flex;
     flex-direction: row;
+    margin: auto;
+    margin-top: 4rem;
   }
+  #descrition{
+    background-color: white;
+    border-radius: 0px 40px 40px 0px;
+    
+  }
+  #descrition, h2, p{
+    color: black;
+    line-height: 2rem;
+    padding-left: 1rem;
+  }
+  .classtilte{
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .classlogo{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+  }
+  #logo2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 30rem;
+    margin-left: 55%;
+    background-color: gray;
+    grid: 1rem;
+    position: absolute;
+    margin-top: -5rem;
+    height: 10rem;
+    border-radius: 2rem;
+
+
+  }
+ 
+  
   
   
