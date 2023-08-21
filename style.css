@@ -11,8 +11,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #logo img{
-    width: 80px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 header{
     display: flex;
