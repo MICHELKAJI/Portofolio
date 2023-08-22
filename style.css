@@ -363,7 +363,6 @@ li:hover, li:focus{
       margin: auto;
       justify-content: center;
       line-height: 1rem;
-      padding-top: 10rem;
     }
     #picture img{
       height: 15rem;
@@ -376,7 +375,6 @@ li:hover, li:focus{
   border-radius: 100%;
   height: 10rem;
   width: 10rem;
-
 }
   }
 
