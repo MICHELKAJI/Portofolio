@@ -11,8 +11,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #logo img{
-    width: 100px;
-    height: 100px;
+    width: 5rem;
+    height: 5rem;
 }
 header{
     display: flex;
@@ -79,13 +79,10 @@ a{
     background-color:gray;
     border-radius: 0px 60px 0px 60px;
     font-size: 1.2em;
-    
-
 }
 
 #myself {
     width: auto;
-   
 }
 #picture{
     width: auto;
@@ -352,7 +349,27 @@ li:hover, li:focus{
     text-align: center;
     font-weight: bold;
     font-size: 1.2em;
-    
+  }
+
+  @media screen and (max-width: 1240px) {
+    #menuBarr{
+      display: none;
+    }
+    #home{
+      display: flex;
+      flex-direction: column-reverse;
+      gap:1rem;
+      font-size: 1rem;
+      margin: auto;
+      justify-content: center;
+    }
+    #picture img{
+      height: 15rem;
+      width: 15rem;
+  }
+  #myself {
+    width: auto;
+}
 
   }
 
