@@ -362,8 +362,8 @@ li:hover, li:focus{
       font-size: 1rem;
       margin: auto;
       justify-content: center;
-      line-height: 1rem;
       height: 100vh;
+      padding: 10rem;
     }
     #picture img{
       height: 15rem;
