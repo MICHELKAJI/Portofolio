@@ -358,19 +358,19 @@ li:hover, li:focus{
     #home{
       display: flex;
       flex-direction: column-reverse;
-      gap:1rem;
       font-size: 1rem;
-      margin: auto;
+      gap: 0rem;
       justify-content: center;
       height: 100vh;
-      padding: 12em;
+      width: 100%;
+      padding-top: 2rem;
     }
     #picture img{
       height: 15rem;
       width: 15rem;
   }
   #myself {
-    margin: auto;
+    margin: 1rem auto;
 }
 #picture img{
   border-radius: 100%;
@@ -380,7 +380,11 @@ li:hover, li:focus{
 #contener{
 display: flex;
 flex-direction: column-reverse;
-  
+width: 100%;
+height: 100vh;
+}
+#logo2{
+  display: none;
 }
   }
 
