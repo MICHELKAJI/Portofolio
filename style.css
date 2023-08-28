@@ -10,6 +10,10 @@ body{
     margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+main{
+  border: #FCFCFC solid 2px;
+  width: 100%;
+}
 #logo img{
     width: 5rem;
     height: 5rem;
@@ -329,8 +333,6 @@ li:hover, li:focus{
     flex-direction: row;
     justify-content: center;
     background-color: white;
-    margin: auto;
-    gap: 2rem;
     width: 100%;
   }
   .classesize{
@@ -349,6 +351,7 @@ li:hover, li:focus{
     text-align: center;
     font-weight: bold;
     font-size: 1.2em;
+   
   }
 
   @media screen and (max-width: 1240px) {
@@ -385,6 +388,21 @@ height: 100vh;
 }
 #logo2{
   display: none;
+}
+#aboutMe{
+  width: 100%;
+  height: 100vh;
+}
+#Portofolio{
+  width: 100%;
+  height: 100vh;
+}
+#images img{
+  width: 100%;
+  height: 10rem;
+}
+footer{
+  
 }
   }
 
