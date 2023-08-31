@@ -21,7 +21,6 @@ header{
     justify-content: space-between;
     background-color: rgb(49, 43, 43);
     color: white;
-    opacity: 0.8;
     position: fixed;
     width: 100%;
     font-size: 1.5em;
@@ -31,7 +30,7 @@ header{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-right: 5rem;
+    margin-right: 5em;
 }
 li{
     list-style-type: none;
