@@ -356,7 +356,8 @@ li:hover, li:focus{
     }
     .container1{
       display: block;
-      padding: 2rem;
+      padding: 1rem;
+      margin-top: auto;
     }
     #home{
       display: flex;
@@ -439,15 +440,15 @@ header{
 }
 
 .hamburger-label {
-  width: 70px;
-  height: 58px;
+  width: 3rem;
+  height: 2.5rem;
   display: block;
   cursor: pointer;
 }
 
 .hamburger-label div {
-  width: 70px;
-  height: 6px;
+  width: 3rem;
+  height: 0.5rem;
   background-color: #fff;
   position: absolute;
 }
@@ -457,12 +458,12 @@ header{
 }
 
 .line2 {
-  margin: 18px 0 0 0;
+  margin: 10px 0 0 0;
   transition: 0.3s;
 }
 
 .line3 {
-  margin: 36px 0 0 0;
+  margin: 20px 0 0 0;
   transition: 0.3s;
 }
 
