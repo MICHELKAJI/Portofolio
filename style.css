@@ -561,10 +561,32 @@ header{
   width: 100%;
   margin: 0%;
   padding: 0%;
+}
+  }
 
+  [class*="reveal-"] {
+    opacity: 0;
+    transform: translateY(30px);
 }
 
-  }
+.reveal-visible{
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+/* On ajoute du délai */
+.reveal-2 {
+    transition-delay: .1s;
+}
+
+.reveal-3 {
+    transition-delay: .2s;
+}
+
+.reveal-4 {
+    transition-delay: .3s;
+}
 
       
  
