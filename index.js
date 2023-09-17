@@ -19,6 +19,30 @@ document.querySelectorAll('[class*= "reveal-"]').forEach(function(r){
 
 })
 
+const menubuger = document.querySelector("#logo3 img");
+const panelList = document.querySelector("#menuBarr");
+const list = document.querySelectorAll("li");
+list.forEach(clickElt);
+
+menubuger.addEventListener('click', function(){
+        panelList.classList.remove("activeMenu");
+})
+
+function clickElt(elt){
+    elt.addEventListener('click', listeClick);
+   
+};
+function listeClick(){
+    panelList.classList.add("activeMenu");
+    
+}
+
+
+
+
+    
+
+
 
 
 
