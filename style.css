@@ -382,6 +382,9 @@ transition: 1s cubic-bezier(.5, 0, 0, 1);
     transition: ease-out 1s;
     width: 75%;
     }
+    #picture{
+      margin-top:0%;
+    }
     .activeMenu ul{
       margin-left: -250px;
       transition: ease-out 1s;
@@ -434,6 +437,13 @@ transition: 1s cubic-bezier(.5, 0, 0, 1);
     padding: auto;
     padding-right: 3rem;
     
+}
+li{
+  background-color: black;
+  color:white;
+  padding: 0.3rem;
+  border-radius: 0px;
+  transition:  all 0s ease-out;
 }
 #picture img{
   border-radius: 100%;
