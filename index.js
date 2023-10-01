@@ -23,10 +23,10 @@ const menubuger = document.querySelector("#logo3 img");
 const panelList = document.querySelector("#menuBarr");
 const list = document.querySelectorAll("li");
 list.forEach(clickElt);
+
 menubuger.addEventListener('click', function(){
- 
     panelList.classList.remove("activeMenu");
-     
+    menubuger.hidden = true;
 })
 
 function clickElt(elt){
@@ -36,6 +36,7 @@ function clickElt(elt){
 
 function listeClick(){
     panelList.classList.add("activeMenu");
+    menubuger.hidden = false;
 }
 
 
