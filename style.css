@@ -6,7 +6,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url("images/AdobeStock_170932733_Preview.jpeg");
+    background: url("images/83-838362_web-developer.jpg") repeat;
+    background-size: contain;
     margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:0%;
@@ -81,7 +82,7 @@ a{
     text-align: center;
     color: white;
     line-height: 2rem;
-    background-color:gray;
+    background-color:rgba(228, 206, 206, 0.55);
     border-radius: 0px 60px 0px 60px;
     font-size: 1.2em;
 }
