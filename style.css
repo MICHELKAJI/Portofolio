@@ -456,11 +456,13 @@ li{
 }
 #myself p,h1{
   color: white;
-  margin-left: 2rem;
+  margin-left: auto;
+  padding: 1rem;
 }
 #myself h2{
   color: white;
-  margin-left: 2rem;
+  margin: auto;
+padding: 1rem;
 }
 #contener{
 display: flex;
